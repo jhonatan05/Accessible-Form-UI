@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Form />
-      <section>
+      <section className="App__task-progress">
         <Progress />
         <Task />
       </section>
